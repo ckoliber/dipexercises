@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "dipexercises"
+version = "0.1.0"
+description = "DIP Exercises"
+authors = ["KoLiBer <koliberr136a1@gmail.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = ">=3.8,<3.10"
+jupyter = "^1.0.0"
+ipykernel = "^6.9.2"
+matplotlib = "^3.5.1"
+scikit-learn = "^1.0.2"
+pandas = "^1.4.1"
+scipy = "1.6.1"
+numpy = "1.21.6"
+numba = "^0.55.1"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
