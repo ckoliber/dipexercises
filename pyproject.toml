@@ -16,6 +16,7 @@ scipy = "1.6.1"
 numpy = "1.21.6"
 numba = "^0.55.1"
 opencv-python = "^4.5.5"
+tensorflow = "^2.9.0"
 
 [tool.poetry.dev-dependencies]
 pytest = "^5.2"
